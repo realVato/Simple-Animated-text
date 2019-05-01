@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+
+body {
+    font-family: 'Days One', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url(img/smoketrees.jpg) no-repeat center/cover;
+}
+
+.animated {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    0% { color: rgb(0, 0, 0);}
+    50% { color: rgb(41, 204, 68);}
+    75% { color: rgb(0, 217, 255);}
+    100% { color: rgb(0, 0, 0);}
+}
+
